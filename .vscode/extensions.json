@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+  "akamud.vscode-theme-onedark",
+  "JerryHong.autofilename",
+  "aaron-bond.better-comments",
+  "pucelle.vscode-css-navigation",
+  "EditorConfig.EditorConfig",
+  "HTMLHint.vscode-htmlhint",
+  "kisstkondoros.vscode-gutter-preview",
+  "ritwickdey.LiveServer",
+  "equinusocio.vsc-material-theme-icons",
+  "alefragnani.project-manager",
+  "rebornix.project-snippets",
+  "syler.sass-indented",
+  "stylelint.vscode-stylelint"
+  ]
+}

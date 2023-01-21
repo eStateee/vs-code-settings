@@ -1,0 +1,51 @@
+{
+  // Stylelint
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+  ],
+  "[scss]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+  },  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll.htmlhint": true, 
+  },
+
+  // General
+    //* Color theme/icons
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.preferredLightColorTheme": "Atom One Dark",
+    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    //*  Terminal
+    "terminal.integrated.fontFamily": "Hack NF, Courier, monospace", //! Hack NF need to be installed. You can download any "monospace" font and set it.
+    "terminal.integrated.fontSize": 14,
+    "window.zoomLevel": 2,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Menlo",
+    "editor.mouseWheelZoom": true,
+    "workbench.editor.closeEmptyGroups": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.formatOnSave": false,
+    
+    "[css]": {
+      "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[html]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "vscode.html-language-features",
+      "editor.formatOnSave": true,
+      "editor.suggest.insertMode": "replace",
+    },
+    
+    
+}
